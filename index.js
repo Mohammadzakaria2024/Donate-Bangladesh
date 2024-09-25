@@ -49,7 +49,7 @@ calcolatebutton.addEventListener("click", function () {
 
     
     historyItems.innerHTML = `
-     <div class="flex font-bold text-2xl"> <h1>${donatebalance.toFixed(2)}</h1>
+     <div class="flex font-bold text-2xl"> <h1>${donatebalance.toFixed(2)} Taka : </h1>
       <h1>${donatearia}</h1></div>
       <p class=" m-2 font-boldl">${new Date().toDateString()}</p>
     `;
