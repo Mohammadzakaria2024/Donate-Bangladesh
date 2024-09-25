@@ -30,8 +30,8 @@ calcolatebutton.addEventListener("click", function () {
     const alldonate = totaldonatebalance + donatebalance;
 
    
-    totaldonatebalanceElement.innerText = alldonate;
-    mybalanceElement.innerText = newBalance;
+    totaldonatebalanceElement.innerText = alldonate.toFixed(2);
+    mybalanceElement.innerText = newBalance.toFixed(2);
     const modal = document.getElementById("my_modal_4");
     modal.showModal();
     const historyItems = document.createElement("div");
@@ -39,7 +39,7 @@ calcolatebutton.addEventListener("click", function () {
         "items-center",
         "mx-auto",
         "font-Manrope",
-        "w-9/12",
+        "w-12/12",
         "p-8",
         "rounded-md",
         "border-2",
