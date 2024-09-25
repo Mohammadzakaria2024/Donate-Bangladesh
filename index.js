@@ -36,3 +36,28 @@ calcolatebutton.addEventListener("click", function () {
     modal.showModal();
   
 });
+
+
+const history = document.getElementById("History");
+const Donation = document.getElementById("Donation");
+const DonationHistoyr = document.getElementById("DonationHistoyr");
+const Donatearia = document.getElementById("Donatearia");
+
+history.addEventListener("click", function () {
+    const heddin = document.getElementById("heddin");
+    heddin.classList.add("hidden");
+
+    
+
+    history.classList.add("p-4", "rounded-md", "bg-lime-400");
+    Donation.classList.remove(  "bg-lime-400");
+    DonationHistoyr.classList.remove(  "hidden");
+
+
+    DonationHistoyr.createElement("div");
+    new Date()
+
+    
+});
+
+console.log(heddin);
